@@ -54,5 +54,5 @@ def create_chats(i):
 for i in range(loops):
     sleep_time = random.uniform(5, 10)
     create_chats(i)
-    print(f"Канал {i + 1} создан. Задержка на {sleep_time:.2f} секунды.")
+    print(f"[{create_timestamp()}]: Канал {i + 1} создан. Задержка на {sleep_time:.2f} секунды.")
     time.sleep(sleep_time)
